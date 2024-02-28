@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: aws.sdk.kotlin:s3-jvm:0.17.12-beta">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/s3-jvm/0.17.12-beta/1c1a824a54eff8da48ae63798e55bf6f3f8607b6/s3-jvm-0.17.12-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/s3-jvm/0.17.12-beta/41c87f7f5e20afffd1529be0ea88a8b84cb2c198/s3-jvm-0.17.12-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/s3-jvm/0.17.12-beta/e329d4073929a4c8e4a6d2a5a83b9c85e0bb3c6d/s3-jvm-0.17.12-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

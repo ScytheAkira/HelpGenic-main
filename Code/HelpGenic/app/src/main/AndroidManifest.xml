@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.helpgenic">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- The Agora SDK requires Bluetooth permissions in case users are using Bluetooth devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelpGenic"
+        tools:targetApi="31">
+        <activity
+            android:name=".DisplayImage2"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".MapsActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".Doctor.AddPhysicalSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.AddVirtualSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.UpdateVirtualSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayImage"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayPrescription"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.MedicineLists"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Doctor.PrescriptionForm"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.JoinMeeting"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.GiveFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Patient.PageForUpdateApps"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.DisplayingSlots"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.PatientViewingDocProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Patient.AppointmentDocsViewedByPatient"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.AppointmentDocsViewedByDoc"
+            android:exported="false"
+            android:label="Back"
+            android:parentActivityName=".Doctor.DocViewingPatientProfile" />
+        <activity
+            android:name=".Doctor.DocViewingPatientProfile"
+            android:exported="false"
+            android:label="Home"
+            android:parentActivityName=".Doctor.DocPage" />
+        <activity
+            android:name=".GetStarted"
+            android:exported="false"
+            android:label="Log In"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".Doctor.DocPage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Patient.PatientPage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" /> <!-- We would touch this in the end -->
+        <activity
+            android:name=".Admin.AdminPage"
+            android:exported="false"
+            android:label="Dashboard" />
+        <activity
+            android:name=".SignUpDonor"
+            android:exported="false"
+            android:label="Sign Up"
+            android:parentActivityName=".GetStarted" />
+        <activity
+            android:name=".Patient.SignUpPatient"
+            android:exported="false"
+            android:label="Sign Up"
+            android:parentActivityName=".GetStarted" />
+        <activity
+            android:name=".Doctor.SignUpDoc"
+            android:exported="false"
+            android:label="Sign Up"
+            android:parentActivityName=".GetStarted" />
+
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:label="Log In">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyReciever" />
+    </application>
+
+</manifest>

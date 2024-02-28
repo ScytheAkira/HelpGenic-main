@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: aws.sdk.kotlin:aws-endpoint-jvm:0.17.12-beta">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/aws-endpoint-jvm/0.17.12-beta/53cd78b34776a7ea8858c6ce7e01e67da3497f73/aws-endpoint-jvm-0.17.12-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/aws-endpoint-jvm/0.17.12-beta/5865deef21e3dcad2c23ef5901752b51bdb7c2dc/aws-endpoint-jvm-0.17.12-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/aws-endpoint-jvm/0.17.12-beta/dcb712935a5384410b957669be009c117169de7b/aws-endpoint-jvm-0.17.12-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

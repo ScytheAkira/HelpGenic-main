@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/lightGreen"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <TextView
+            android:id="@+id/medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panadol"
+            android:textSize="20dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty:"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toEndOf="@+id/medicine"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506" />
+
+        <CheckBox
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:clickable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
+            app:layout_constraintStart_toEndOf="@+id/qty"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:clickable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/e"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/m"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:clickable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/a"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+

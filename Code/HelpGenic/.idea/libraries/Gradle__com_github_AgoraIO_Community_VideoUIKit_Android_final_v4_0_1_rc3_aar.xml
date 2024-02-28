@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AgoraIO-Community.VideoUIKit-Android:final:v4.0.1-rc3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b716210b87d0f8d85094134825c94d5a/transformed/jetified-final-v4.0.1-rc3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b716210b87d0f8d85094134825c94d5a/transformed/jetified-final-v4.0.1-rc3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b716210b87d0f8d85094134825c94d5a/transformed/jetified-final-v4.0.1-rc3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

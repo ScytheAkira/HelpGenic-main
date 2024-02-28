@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/list_view_custom_design">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.336"
+            app:srcCompat="@drawable/doctor2" />
+
+        <TextView
+            android:id="@+id/DocName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Dr. Iqbal Bhatti"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.60"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.316" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="52dp"
+            android:text="Pediatrics"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toBottomOf="@+id/DocName"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:text="Accept"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.131"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.984" />
+
+        <Button
+            android:id="@+id/reject"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#C50E0E"
+            android:text="Decline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.845"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.984" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: aws.sdk.kotlin:cognitoidentity-jvm:0.17.12-beta">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/cognitoidentity-jvm/0.17.12-beta/e07dc0a0e518245f6ca86a58354227f630509a35/cognitoidentity-jvm-0.17.12-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/cognitoidentity-jvm/0.17.12-beta/a7d689ba3c7cec0e4214dc71a8a35903d10d7b66/cognitoidentity-jvm-0.17.12-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.sdk.kotlin/cognitoidentity-jvm/0.17.12-beta/5792905d4fa0c0a659bee4c7744f7273aeedf653/cognitoidentity-jvm-0.17.12-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

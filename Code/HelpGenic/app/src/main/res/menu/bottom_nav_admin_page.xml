@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ratingsGraph"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+
+        android:title="@string/ratings" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_PatientsCountGraph"
+        android:title="Patients Count"
+        android:icon="@drawable/ic_baseline_bar_chart_24"/>
+</menu>

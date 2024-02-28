@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.agorabuilder:agora-full-preview:4.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7093da8ef4c6e006a2085d0acb0ffd89/transformed/jetified-agora-full-preview-4.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7093da8ef4c6e006a2085d0acb0ffd89/transformed/jetified-agora-full-preview-4.0.0/jars/libs/agora-rtc-sdk.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7093da8ef4c6e006a2085d0acb0ffd89/transformed/jetified-agora-full-preview-4.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7093da8ef4c6e006a2085d0acb0ffd89/transformed/jetified-agora-full-preview-4.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.agorabuilder/agora-full-preview/4.0.0/1bd1d376486756a9b5e4221f895595ab656283b5/agora-full-preview-4.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.agorabuilder/agora-full-preview/4.0.0/1bd1d376486756a9b5e4221f895595ab656283b5/agora-full-preview-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

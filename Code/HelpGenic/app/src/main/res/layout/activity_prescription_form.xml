@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/presciption_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor.PrescriptionForm">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="285dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/psignup" />
+
+    <EditText
+        android:id="@+id/medName"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Medicine name"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    <EditText
+        android:id="@+id/med_dosage"
+        android:inputType="number"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medName"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/ic_baseline_star_24"
+        android:drawablePadding="20dp"
+        android:hint="Dosage "
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+    <CheckBox
+        android:id="@+id/morningCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/med_dosage"
+        android:text="Morning"
+        android:layout_marginStart="10dp"/>
+    <CheckBox
+        android:id="@+id/afternoonCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/morningCheck"
+        android:text="Afternoon"
+        android:layout_marginStart="10dp"/>
+
+    <CheckBox
+        android:id="@+id/eveningCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/afternoonCheck"
+        android:text="Evening"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/submitMed"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eveningCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/green_500"
+        android:text="Add"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

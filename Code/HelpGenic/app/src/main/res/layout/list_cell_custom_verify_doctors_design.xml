@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="411dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/list_view_custom_design"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/doctor2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.271" />
+
+        <TextView
+            android:id="@+id/DocName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="M.Huzaifa"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.323" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="52dp"
+            android:text="Pediatrics"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toBottomOf="@+id/DocName"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/accept"-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="48dp"-->
+        <!--            android:backgroundTint="#30C520"-->
+        <!--            android:text='Verify'-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.062"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.958" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/reject"-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="48dp"-->
+        <!--            android:backgroundTint="#DA3434"-->
+        <!--            android:text="Decline"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.891"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.933" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/viewDoc"-->
+        <!--            android:layout_width="114dp"-->
+        <!--            android:layout_height="61dp"-->
+        <!--            android:text="View Degree"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/reject"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.632"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/DocName"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.791" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:context=".Doctor.SignUpDoc">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.366"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="295dp"
+            android:layout_height="203dp"
+            android:src="@drawable/psignup"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            app:layout_constraintVertical_bias="0.177" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:layout_constraintVertical_bias="0.047" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="270dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            app:layout_constraintVertical_bias="0.047" />
+
+
+        <TextView
+            android:id="@+id/editTextDate"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_view_custom_deesign"
+            android:hint="Date of Birth"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
+            app:layout_constraintVertical_bias="0.071" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="266dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/contact"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:maxLength="11"
+            android:textColorHint="#757575"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDate"
+            app:layout_constraintVertical_bias="0.079" />
+
+
+        <Button
+            android:id="@+id/submitButtonDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#212121"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.135"
+            app:layout_constraintTop_toBottomOf="@+id/uploaddocs" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectCategory"
+            app:layout_constraintVertical_bias="0.133" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="270dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+            app:layout_constraintVertical_bias="0.072" />
+
+
+        <TextView
+            android:id="@+id/selectCategory"
+            android:layout_width="270dp"
+            android:layout_height="41dp"
+            android:background="@drawable/search_view_custom_deesign"
+            android:hint="@string/select_category"
+            android:padding="12dp"
+            android:textColorHint="#2E7D32"
+            app:drawableEndCompat="@drawable/ic_baseline_arrow_drop_down_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+            app:layout_constraintVertical_bias="0.082" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/selectCategory"
+            app:layout_constraintVertical_bias="0.05">
+
+            <RadioButton
+                android:id="@+id/Male"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/Female"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:text="@string/female" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Surgeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="0.550">
+
+            <RadioButton
+                android:id="@+id/Yes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onRadioButtonClicked2"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/No"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:onClick="onRadioButtonClicked2"
+                android:text="No"
+
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Surgeon"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.170"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/uploaddocs"
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:text="Upload License"
+            android:textColor="#212121"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            app:layout_constraintVertical_bias="0.535" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

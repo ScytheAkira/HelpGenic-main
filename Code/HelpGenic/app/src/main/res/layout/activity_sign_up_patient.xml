@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor.SignUpDoc">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="254dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="287dp"
+            android:layout_height="164dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/psignup" />
+
+                <EditText
+            android:id="@+id/patientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="20dp"
+            android:hint="Enter your name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/patientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patientName"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20dp"
+            android:hint="Enter your email"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
+        <EditText
+            android:id="@+id/patientPhoneNumber"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:maxLength="11"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone number"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:layout_below="@id/patientEmail"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="20dp"
+            />
+        <EditText
+            android:id="@+id/patientPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:layout_below="@id/patientPhoneNumber"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/patientConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patientPassword"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/bloodGroups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="A+"
+
+                android:textAlignment="center" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/patientGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:drawablePadding="20dp"
+            android:hint="Gender(Male/Female)"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/patientDOB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/search_view_custom_deesign"
+            android:hint="Date of Birth"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingEnd="10dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/submitButtonPatient"
+            android:layout_width="377dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/green_500"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Create Account"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

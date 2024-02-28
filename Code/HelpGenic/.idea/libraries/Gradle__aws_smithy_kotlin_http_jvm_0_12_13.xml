@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: aws.smithy.kotlin:http-jvm:0.12.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.smithy.kotlin/http-jvm/0.12.13/845ac38f78d0a1728311340518a99d319b0103fe/http-jvm-0.12.13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.smithy.kotlin/http-jvm/0.12.13/9a19cbea78398f5adf5a291a75abf09e2f20d9c1/http-jvm-0.12.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aws.smithy.kotlin/http-jvm/0.12.13/60e8dd6b84115826f91e5f316522ff2f957949bc/http-jvm-0.12.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

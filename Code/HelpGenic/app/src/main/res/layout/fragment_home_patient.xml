@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".Patient.HomePatient">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="44dp"
+        android:src="@drawable/patient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+
+    <TextView
+        android:id="@+id/patientWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome Phuddu Mareez"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <ListView
+
+        android:id="@+id/DocList"
+        android:layout_width="389dp"
+        android:layout_height="395dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.987" />
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_custom_deesign"
+        android:hint="Search"
+        android:inputType="text"
+
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+
+    <!--        android:id="@+id/textInputLayout"-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="16dp"-->
+    <!--        android:hint="Sort By"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/DocList"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.03"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/searchView"-->
+    <!--        app:layout_constraintVertical_bias="0.931">-->
+
+    <!--        <AutoCompleteTextView-->
+    <!--            android:id="@+id/searchOptions"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:inputType="none"-->
+    <!--            android:text="Rating"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/DocList"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="1.03"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/searchView"-->
+    <!--            app:layout_constraintVertical_bias="0.931" />-->
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+
+        android:id="@+id/selectCategory"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Select Category"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toTopOf="@+id/DocList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/findOnMaps"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Find on Maps"
+        app:layout_constraintBottom_toTopOf="@+id/selectCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/selectCategory"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@drawable/search_view_custom_deesign"-->
+    <!--        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"-->
+    <!--        android:hint="Select Category"-->
+    <!--        android:padding="12dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/searchView" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

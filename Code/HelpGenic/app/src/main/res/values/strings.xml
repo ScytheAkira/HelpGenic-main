@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HelpGenic</string>
+    <string name="title_activity_doc_page">DocPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_patient_page">PatientPage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="pSignUp">Sign Up</string>
+
+    <string name="search_donor">Search Donor</string>
+    <string name="history">History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="patienthistory">PatientHistory</string>
+    <string name="select_search_option">Select Search Option</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="dob">DOB</string>
+    <string name="contact">Contact</string>
+    <string name="gender">Gender</string>
+    <string name="password">Password</string>
+    <string name="select_category">Select Category</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="BloodGroup">Homebrew.com - Dropdown</string>
+    <string-array name="BloodGroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string name="Gender">Homebrew.com - Dropdown</string>
+    <string name="search_for_donor">Search for donor</string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="ratings">Ratings</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+
+</resources>
